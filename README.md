@@ -9,12 +9,12 @@ Minecraftの建築ファイル（.litematic / .mcstructure / .nbt）を読み込
 
 ## ダウンロード
 
-[最新版のページ](https://github.com/maxwellailab/structure-planner/releases/latest) から `Structure Planner_<版>_x64-setup.exe` をダウンロードする。各リリースに SHA-256 を載せている。
+[最新版のページ](https://github.com/maxwellailab/structure-planner/releases/latest) から `StructurePlanner_<版>_x64-setup.exe` をダウンロードする。各リリースに SHA-256 を載せている。
 
 壊れていないか・すり替わっていないかは、PowerShellで確かめられる。
 
 ```powershell
-Get-FileHash "$env:USERPROFILE\Downloads\Structure Planner_0.1.0_x64-setup.exe"
+Get-FileHash "$env:USERPROFILE\Downloads\StructurePlanner_0.1.0_x64-setup.exe"
 ```
 
 表示された Hash がリリースの SHA-256 と一致すればOK。一致しないときは実行せず、削除して取り直してほしい。
@@ -25,7 +25,7 @@ Get-FileHash "$env:USERPROFILE\Downloads\Structure Planner_0.1.0_x64-setup.exe"
 
 1. SHA-256 が一致することを先に確かめる。
 2. 青い画面の「詳細情報」を押す。
-3. 発行元が「不明な発行元」、アプリ名が `Structure Planner_<版>_x64-setup.exe` であることを確認して「実行」を押す。
+3. 発行元が「不明な発行元」、アプリ名が `StructurePlanner_<版>_x64-setup.exe` であることを確認して「実行」を押す。
 
 このリポジトリ以外から入手したファイルは実行しないでほしい。
 
