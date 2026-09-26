@@ -4,7 +4,7 @@ Minecraftの建築ファイル（.litematic / .mcstructure / .nbt）を読み込
 
 **NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.**
 
-- インストール不要のWeb版: https://structure-planner.maxwellailab.workers.dev
+- インストール不要のWeb版: https://structure-planner.maxwellailab.com
 - このリポジトリはWindows版の配布専用。ダウンロードは右の **Releases** から。
 
 ## ダウンロード
@@ -70,4 +70,4 @@ Get-FileHash "$env:USERPROFILE\Downloads\StructurePlanner_0.1.0_x64-setup.exe"
 
 ## English (short)
 
-Structure Planner is a free, unofficial Minecraft building and materials planner for Windows. It opens .litematic, .mcstructure and .nbt files, shows them in 3D, lists materials, and edits and saves them. Download the installer from **Releases** and check its SHA-256 (listed on each release) with `Get-FileHash`. The installer is not code-signed, so Windows SmartScreen may warn on first run: choose "More info" → "Run anyway" only if the hash matches. No textures are bundled; the app uses your installed Minecraft Java edition (with your permission) or a resource pack you choose. Files never leave your PC. Web version: https://structure-planner.maxwellailab.workers.dev
+Structure Planner is a free, unofficial Minecraft building and materials planner for Windows. It opens .litematic, .mcstructure and .nbt files, shows them in 3D, lists materials, and edits and saves them. Download the installer from **Releases** and check its SHA-256 (listed on each release) with `Get-FileHash`. The installer is not code-signed, so Windows SmartScreen may warn on first run: choose "More info" → "Run anyway" only if the hash matches. No textures are bundled; the app uses your installed Minecraft Java edition (with your permission) or a resource pack you choose. Files never leave your PC. Web version: https://structure-planner.maxwellailab.com
