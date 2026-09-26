@@ -14,7 +14,7 @@ Minecraftの建築ファイル（.litematic / .mcstructure / .nbt）を読み込
 壊れていないか・すり替わっていないかは、PowerShellで確かめられる。
 
 ```powershell
-Get-FileHash "$env:USERPROFILE\Downloads\StructurePlanner_0.1.0_x64-setup.exe"
+Get-FileHash "$env:USERPROFILE\Downloads\StructurePlanner_*_x64-setup.exe"
 ```
 
 表示された Hash がリリースの SHA-256 と一致すればOK。一致しないときは実行せず、削除して取り直してほしい。
